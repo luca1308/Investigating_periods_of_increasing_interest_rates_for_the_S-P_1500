@@ -1,0 +1,33 @@
+Ghosh, Dipak, et al. "Gold as an inflation hedge?." Studies in Economics and Finance 22.1 (2004): 1-25.
+
+Bampinas, Georgios, and Theodore Panagiotidis. "Hedging inflation with individual US stocks: A long-run portfolio analysis." The North American Journal of Economics and Finance 37 (2016): 374-392.
+
+Zaremba, Adam, Zaghum Umar, and Mateusz Mikutowski. "Inflation hedging with commodities: A wavelet analysis of seven centuries worth of data." Economics Letters 181 (2019): 90-94.
+
+Salisu, Afees A., Ibrahim D. Raheem, and Umar B. Ndako. "The inflation hedging properties of gold, stocks and real estate: A comparative analysis." Resources Policy 66 (2020): 101605.
+
+Arnold, Stephan, and Benjamin R. Auer. "What do scientists know about inflation hedging?." The North American Journal of Economics and Finance 34 (2015): 187-214.
+
+Munk, Claus, and Alexey Rubtsov. "Portfolio management with stochastic interest rates and inflation ambiguity." Annals of Finance 10 (2014): 419-455.
+
+Sato, Ken, Koichi Miyazaki, and Junji Mawaribuchi. "Simple portfolio strategies utilizing inflation factor in Japanese equity market." Procedia Computer Science 4 (2011): 1716-1725.
+
+Park, Sangkyun. "Stocks as a Hedge against Inflation: Does Corporate Profitability Keep Up with Inflation?." Available at SSRN (2022).
+
+Avi-Yonah, Reuven S. "A Different Tax on Stock Buybacks." Available at SSRN 4301215 (2022).
+
+Source: Bloomberg Finance L.P.
+
+https://www.spglobal.com/spdji/en/indices/equity/sp-composite-1500/#overview
+
+https://fred.stlouisfed.org/series/FEDFUNDS#
+
+https://fred.stlouisfed.org/series/CORESTICKM159SFRBATL
+
+https://fred.stlouisfed.org/series/UNRATE
+
+https://fred.stlouisfed.org/series/WTISPLC
+
+
+
+https://www.investing.com/commodities/gold-historical-data
