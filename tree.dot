@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="GICS Sector_Real Estate <= 0.5\ngini = 0.49\nsamples = 2057\nvalue = [1889, 1421]", fillcolor="#f9e0ce"] ;
+1 [label="EPS T12M <= 1.715\ngini = 0.493\nsamples = 1940\nvalue = [1742, 1378]", fillcolor="#fae5d6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.5\nsamples = 886\nvalue = [738, 720]", fillcolor="#fefcfa"] ;
+1 -> 2 ;
+3 [label="gini = 0.478\nsamples = 1054\nvalue = [1004, 658]", fillcolor="#f6d4bb"] ;
+1 -> 3 ;
+4 [label="Revenue T12M <= 649099488.0\ngini = 0.35\nsamples = 117\nvalue = [147, 43]", fillcolor="#eda673"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.437\nsamples = 54\nvalue = [63, 30]", fillcolor="#f1bd97"] ;
+4 -> 5 ;
+6 [label="gini = 0.232\nsamples = 63\nvalue = [84, 13]", fillcolor="#e99458"] ;
+4 -> 6 ;
+}
