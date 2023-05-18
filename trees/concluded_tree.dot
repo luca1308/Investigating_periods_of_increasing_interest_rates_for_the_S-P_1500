@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Market Cap <= 443.845\ngini = 0.484\nsamples = 331\nvalue = [0.589, 0.411]", fillcolor="#ffffff"] ;
+1 [label="gini = 0.153\nsamples = 12\nvalue = [0.083, 0.917]", fillcolor="#f1f8fd"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Beta:M-1 <= 0.929\ngini = 0.477\nsamples = 319\nvalue = [0.608, 0.392]", fillcolor="#ffffff"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="Revenue per Employee <= 172762.25\ngini = 0.425\nsamples = 121\nvalue = [0.694, 0.306]", fillcolor="#fffffe"] ;
+2 -> 3 ;
+7 [label="gini = 0.492\nsamples = 16\nvalue = [0.438, 0.562]", fillcolor="#fdfeff"] ;
+3 -> 7 ;
+8 [label="Market Cap <= 9753.322\ngini = 0.391\nsamples = 105\nvalue = [0.733, 0.267]", fillcolor="#fffefe"] ;
+3 -> 8 ;
+9 [label="gini = 0.461\nsamples = 61\nvalue = [0.639, 0.361]", fillcolor="#fffefe"] ;
+8 -> 9 ;
+10 [label="gini = 0.236\nsamples = 44\nvalue = [0.864, 0.136]", fillcolor="#fffdfc"] ;
+8 -> 10 ;
+4 [label="Number of Employees:Y <= 570.5\ngini = 0.494\nsamples = 198\nvalue = [0.556, 0.444]", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="gini = 0.245\nsamples = 14\nvalue = [0.857, 0.143]", fillcolor="#fef9f5"] ;
+4 -> 5 ;
+6 [label="Beta:M-1 <= 1.183\ngini = 0.498\nsamples = 184\nvalue = [0.533, 0.467]", fillcolor="#ffffff"] ;
+4 -> 6 ;
+11 [label="gini = 0.488\nsamples = 64\nvalue = [0.422, 0.578]", fillcolor="#ffffff"] ;
+6 -> 11 ;
+12 [label="Revenue T12M <= 589814976.0\ngini = 0.483\nsamples = 120\nvalue = [0.592, 0.408]", fillcolor="#ffffff"] ;
+6 -> 12 ;
+13 [label="gini = 0.43\nsamples = 16\nvalue = [0.312, 0.688]", fillcolor="#fafdfe"] ;
+12 -> 13 ;
+14 [label="Net Debt LF <= 1494483520.0\ngini = 0.464\nsamples = 104\nvalue = [0.635, 0.365]", fillcolor="#fffffe"] ;
+12 -> 14 ;
+15 [label="gini = 0.424\nsamples = 72\nvalue = [0.694, 0.306]", fillcolor="#fffefe"] ;
+14 -> 15 ;
+16 [label="gini = 0.5\nsamples = 32\nvalue = [0.5, 0.5]", fillcolor="#ffffff"] ;
+14 -> 16 ;
+}
