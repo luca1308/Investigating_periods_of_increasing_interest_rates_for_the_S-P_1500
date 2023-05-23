@@ -1,9 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="Revenue T12M <= 2280345472.0\ngini = 0.5\nsamples = 813\nvalue = [0.504, 0.496]", fillcolor="#ffffff"] ;
-1 [label="gini = 0.477\nsamples = 370\nvalue = [0.608, 0.392]", fillcolor="#ffffff"] ;
+0 [label="Beta:M-1 <= 0.619\ngini = 0.499\nsamples = 1270\nvalue = [0.517, 0.483]", fillcolor="#ffffff"] ;
+1 [label="GICS Sector_Health Care <= 0.5\ngini = 0.416\nsamples = 166\nvalue = [0.295, 0.705]", fillcolor="#ffffff"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.487\nsamples = 443\nvalue = [0.418, 0.582]", fillcolor="#ffffff"] ;
+5 [label="gini = 0.388\nsamples = 133\nvalue = [0.263, 0.737]", fillcolor="#feffff"] ;
+1 -> 5 ;
+6 [label="gini = 0.489\nsamples = 33\nvalue = [0.424, 0.576]", fillcolor="#feffff"] ;
+1 -> 6 ;
+2 [label="Revenue T12M <= 2282134528.0\ngini = 0.495\nsamples = 1104\nvalue = [0.55, 0.45]", fillcolor="#ffffff"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.472\nsamples = 501\nvalue = [0.619, 0.381]", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="gini = 0.5\nsamples = 603\nvalue = [0.493, 0.507]", fillcolor="#ffffff"] ;
+2 -> 4 ;
 }
