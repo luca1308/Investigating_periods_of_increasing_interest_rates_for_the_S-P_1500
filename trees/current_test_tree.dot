@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="P/E <= 12.452\ngini = 0.5\nsamples = 817\nvalue = [0.51, 0.49]", fillcolor="#ffffff"] ;
-1 [label="P/E <= 7.049\ngini = 0.464\nsamples = 189\nvalue = [0.633, 0.367]", fillcolor="#ffffff"] ;
+0 [label="Revenue T12M <= 2257270528.0\ngini = 0.499\nsamples = 1270\nvalue = [0.517, 0.483]", fillcolor="#ffffff"] ;
+1 [label="GICS Sector_Real Estate <= 0.5\ngini = 0.481\nsamples = 558\nvalue = [0.599, 0.401]", fillcolor="#ffffff"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-5 [label="gini = 0.476\nsamples = 38\nvalue = [0.391, 0.609]", fillcolor="#feffff"] ;
+5 [label="gini = 0.486\nsamples = 501\nvalue = [0.585, 0.415]", fillcolor="#ffffff"] ;
 1 -> 5 ;
-6 [label="gini = 0.421\nsamples = 151\nvalue = [0.699, 0.301]", fillcolor="#ffffff"] ;
+6 [label="gini = 0.404\nsamples = 57\nvalue = [0.719, 0.281]", fillcolor="#fffefd"] ;
 1 -> 6 ;
-2 [label="Revenue per Employee <= 4384637.75\ngini = 0.498\nsamples = 628\nvalue = [0.472, 0.528]", fillcolor="#ffffff"] ;
+2 [label="GICS Sector_Consumer Discretionary <= 0.5\ngini = 0.495\nsamples = 712\nvalue = [0.452, 0.548]", fillcolor="#ffffff"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-3 [label="gini = 0.5\nsamples = 601\nvalue = [0.491, 0.509]", fillcolor="#ffffff"] ;
+3 [label="gini = 0.489\nsamples = 586\nvalue = [0.427, 0.573]", fillcolor="#ffffff"] ;
 2 -> 3 ;
-4 [label="gini = 0.211\nsamples = 27\nvalue = [0.12, 0.88]", fillcolor="#fcfeff"] ;
+4 [label="gini = 0.49\nsamples = 126\nvalue = [0.571, 0.429]", fillcolor="#ffffff"] ;
 2 -> 4 ;
 }
